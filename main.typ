@@ -125,4 +125,4 @@
 - Teorie, pak programování  
 - Python, Linux  
 - Nepoužívat LLM (AI)  
-] 
+]
