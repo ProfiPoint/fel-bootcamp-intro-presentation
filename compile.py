@@ -70,7 +70,7 @@ if __name__ == "__main__":
         names = ", ".join(f"{l['first']} {l['last']}" for l in team)
         presentations.append(
             {
-                "title": f"Presentation ({names})",
+                "title": f"Presentation PDF ({names})",
                 "file": pdf_name,
             }
         )
@@ -80,10 +80,10 @@ if __name__ == "__main__":
         "<html>",
         "<head>",
         '    <meta charset="utf-8">',
-        "    <title>Presentations</title>",
+        "    <title>Bootcamp Intro Presentations</title>",
         "</head>",
         "<body>",
-        "    <h1>Presentations</h1>",
+        "    <h1>Bootcamp Intro Presentations</h1>",
         "    <ul>",
     ]
     for pres in presentations:
