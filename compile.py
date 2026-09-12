@@ -15,8 +15,21 @@ LECTURER_TEAMS: list[list[Lecturer]] = [
         {"first": "Bob", "last": "Novák"},
     ],
     [
-        {"first": "Ondřej", "last": "Čopák"},
+        {"first": "Dominik", "last": "Eichenberger"},
+        {"first": "Richard", "last": "Weber"},
+        {"first": "Ondřej", "last": "Vašatko"},
+    ],
+    [
+        {"first": "Oleksandr", "last": "Bobrov"},
+        {"first": "Kateryna", "last": "Padusenko"},
+    ],
+    [
+        {"first": "Michal", "last": "Matiáš"},
+        {"first": "Tomáš", "last": "Dudáček"},
+    ],
+    [
         {"first": "Šimon", "last": "Brandner"},
+        {"first": "Ondřej", "last": "Čopák"},
     ],
 ]
 
