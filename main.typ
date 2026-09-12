@@ -1,6 +1,8 @@
 #import "@preview/touying:0.6.1": *
 #import themes.university: *
 
+#show link: underline
+
 #let lecturer-a = sys.inputs.at("lecturer_a", default: "Alice")
 #let lecturer-b = sys.inputs.at("lecturer_b", default: "Bob")
 #let date = "2026-09-14"
@@ -125,4 +127,8 @@
   - Teorie, pak programování
   - Python, Linux
   - Nepoužívat LLM (AI)
+  #line(length: 100%)
+  #text(fill: gray, link(
+    "https://github.com/ProfiPoint/fel-programming-bootcamp-intro-presentation",
+  )[github.com/ProfiPoint/fel-programming-bootcamp-intro-presentation])
 ]
