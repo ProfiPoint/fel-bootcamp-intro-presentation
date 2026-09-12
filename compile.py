@@ -11,9 +11,13 @@ class Lecturer(TypedDict):
 
 LECTURER_TEAMS: list[list[Lecturer]] = [
     [
+        {"first": "Alice", "last": "Dvořáková"},
+        {"first": "Bob", "last": "Novák"},
+    ],
+    [
         {"first": "Ondřej", "last": "Čopák"},
         {"first": "Šimon", "last": "Brandner"},
-    ]
+    ],
 ]
 
 
