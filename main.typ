@@ -11,6 +11,7 @@
 #show: university-theme.with(
   aspect-ratio: "16-9",
   header: utils.display-current-heading(level: auto, style: auto),
+  footer-a: [#lecturer-a, #lecturer-b],
   config-info(
     title: [Letní Programovací Boot Camp],
     subtitle: [Úvod],
@@ -20,7 +21,6 @@
     ] else [
       #lecturer-a, #lecturer-b
     ],
-    short-author: [#lecturer-a, #lecturer-b],
     date: [#date],
   ),
   config-common(
