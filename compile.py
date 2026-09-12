@@ -70,7 +70,7 @@ if __name__ == "__main__":
         names = ", ".join(f"{l['first']} {l['last']}" for l in team)
         presentations.append(
             {
-                "title": f"Presentation PDF ({names})",
+                "title": f"Presentation ({names}).pdf",
                 "file": pdf_name,
             }
         )
