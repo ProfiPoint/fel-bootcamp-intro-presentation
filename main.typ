@@ -139,4 +139,7 @@
   #text(fill: gray, link(
     "https://github.com/ProfiPoint/fel-programming-bootcamp-intro-presentation",
   )[github.com/ProfiPoint/fel-programming-bootcamp-intro-presentation])
+  #text(fill: gray, link(
+    "Stánky Bootcampu CourseWare",
+  )[https://cw.fel.cvut.cz/wiki/courses/pri-bootcamp])
 ]
