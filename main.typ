@@ -1,8 +1,8 @@
 #import "@preview/touying:0.6.1": *
 #import themes.university: *
 
-#let lecturer1 = "Ondra Čopák"
-#let lecturer2 = "Šimon Brandner"
+#let lecturer-a = sys.inputs.at("lecturer_a", default: "Alice")
+#let lecturer-b = sys.inputs.at("lecturer_b", default: "Bob")
 #let date = "2026-09-14"
 
 #show: university-theme.with(
@@ -12,7 +12,7 @@
     title: [Letní Programovací Boot Camp],
     subtitle: [Úvod],
     institution: [České vysoké učení technické v Praze, Fakulta elektrotechnická],
-    author: [#lecturer1, #lecturer2],
+    author: [#lecturer-a, #lecturer-b],
     date: [#date],
   ),
   config-common(
@@ -30,9 +30,9 @@
 == Kdo jsme
 
 #align(horizon)[
-  - Studenti třetího ročníku bakalářského studia OI
-    - *#lecturer1*
-    - *#lecturer2*
+  - Studenti FEL ČVUT:
+    - *#lecturer-a*
+    - *#lecturer-b*
   #line(length: 100%)
   - Můžete nám tykat!
 ]
