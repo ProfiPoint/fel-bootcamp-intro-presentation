@@ -5,6 +5,7 @@
 
 #let lecturer-a = sys.inputs.at("lecturer_a", default: "Alice")
 #let lecturer-b = sys.inputs.at("lecturer_b", default: "Bob")
+#let lecturer-c = sys.inputs.at("lecturer_c", default: "")
 #let date = "2026-09-14"
 
 #show: university-theme.with(
@@ -14,7 +15,11 @@
     title: [Letní Programovací Boot Camp],
     subtitle: [Úvod],
     institution: [České vysoké učení technické v Praze, Fakulta elektrotechnická],
-    author: [#lecturer-a, #lecturer-b],
+    author: if lecturer-c != "" and lecturer-c != none [
+      #lecturer-a, #lecturer-b, #lecturer-c
+    ] else [
+      #lecturer-a, #lecturer-b
+    ],
     date: [#date],
   ),
   config-common(
@@ -35,6 +40,9 @@
   - Studenti FEL ČVUT:
     - *#lecturer-a*
     - *#lecturer-b*
+    #if lecturer-c != "" and lecturer-c != none [
+      - *#lecturer-c*
+    ]
   #line(length: 100%)
   - Můžete nám tykat!
 ]

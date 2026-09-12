@@ -1,6 +1,6 @@
 # Readme
 
-This repository contains the Typst source code `main.typ` for the introductory presentation of the CVUT FEL Bootcamp (Day 1). The rendered PDF is accessible [here](https://profipoint.github.io/fel-programming-bootcamp-intro-presentation/slides-dvořáková-novák.pdf).
+This repository contains the Typst source code `main.typ` for the introductory presentation of the CVUT FEL Bootcamp (Day 1). The rendered presentations are accessible [here](https://profipoint.github.io/fel-programming-bootcamp-intro-presentation/).
 
 [CVUT FEL BOOTCAMP CourseWare Wiki](https://cw.fel.cvut.cz/wiki/courses/pri-bootcamp/01)
 
