@@ -142,5 +142,5 @@
   )[github.com/ProfiPoint/fel-programming-bootcamp-intro-presentation])
   #text(fill: gray, link(
     "https://cw.fel.cvut.cz/wiki/courses/pri-bootcamp",
-  )[Stánky Bootcampu CourseWare])
+  )[Stránky Bootcampu CourseWare])
 ]
