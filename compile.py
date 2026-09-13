@@ -93,7 +93,7 @@ if __name__ == "__main__":
     html_content.extend(
         [
             "    </ul>",
-            f'<a href="{html.escape("github.com/ProfiPoint/fel-programming-bootcamp-intro-presentation")}">{html.escape("Edit Source Code Here (GitHub)}</a>',
+            f'<a href="{html.escape("github.com/ProfiPoint/fel-programming-bootcamp-intro-presentation")}">{html.escape("Edit Source Code Here (GitHub)"}</a>',
             "</body>",
             "</html>",
             "",
