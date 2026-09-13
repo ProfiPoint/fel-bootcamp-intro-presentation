@@ -36,6 +36,10 @@ LECTURER_TEAMS: list[list[Lecturer]] = [
 
 
 if __name__ == "__main__":
+    if len(sys.argv) < 2:
+        print("Usage: python script.py <output_directory>")
+        sys.exit(1)
+
     output_directory = sys.argv[1]
     os.makedirs(output_directory, exist_ok=True)
 
@@ -93,7 +97,7 @@ if __name__ == "__main__":
     html_content.extend(
         [
             "    </ul>",
-            f'<a href="{html.escape("github.com/ProfiPoint/fel-programming-bootcamp-intro-presentation")}">{html.escape("Edit Source Code Here (GitHub)"}</a>',
+            f'    <a href="{html.escape("https://github.com/ProfiPoint/fel-programming-bootcamp-intro-presentation")}">{html.escape("Edit Source Code Here (GitHub)")}</a>',
             "</body>",
             "</html>",
             "",
@@ -102,4 +106,3 @@ if __name__ == "__main__":
 
     with open(os.path.join(output_directory, "index.html"), "w", encoding="utf-8") as f:
         f.write("\n".join(html_content))
-
